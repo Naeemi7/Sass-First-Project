@@ -96,20 +96,17 @@ main {
     flex-wrap: wrap;
 
     .article-1 {
-      @include article-style;
-      background-image: url('../images/white-box.jpg');
+      @include article-style('../images/white-box.jpg');
       background-position: center;
     }
     
     .article-2 {
-      @include article-style;
-      background-image: url('../images/room.jpg');
+      @include article-style('../images/room.jpg');
       background-position: left center;
     }
     
     .article-3 {
-      @include article-style;
-      background-image: url('../images/black-white.jpg');
+      @include article-style('../images/black-white.jpg');
     }
  
   }
